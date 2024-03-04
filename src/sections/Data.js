@@ -12,4 +12,4 @@ export {
     Projects,
     Contact,
     Footer
-}
+};

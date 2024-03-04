@@ -1,11 +1,11 @@
 import React from "react";
-import { FiGithub } from "react-icons/fi";
-import { viewLiveLinks, githubLinks } from "../constant/data";
+// import { FiGithub } from "react-icons/fi";
+// import { viewLiveLinks, githubLinks } from "../constant/data";
 
 const Buttons = () => {
   return (
     <div className="flex md:flex-row md:gap-6 items-center mt-12">
-      <div>
+      {/* <div>
         {viewLiveLinks.map((item, index) => (
           <a href={item.liveLink} key={index} className="live-btn">
             View Live{" "}
@@ -37,7 +37,7 @@ const Buttons = () => {
             </span>
           </a>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
