@@ -1,5 +1,5 @@
 import React from "react";
-import uberClone from "../assets/uberClone-bg.png";
+import uberClone from "../assets/UberClone-bg.png";
 // import Buttons from "./Buttons";
 
 const ProjectCards = () => {
