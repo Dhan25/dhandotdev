@@ -37,7 +37,7 @@ const Home = () => {
           {/* Socials */}
           <div className="flex justify-center xl:float-left">
             <div className="flex items-center gap-5 mt-8">
-              <a href="https://www.linkedin.com/in/antonydhanorejas25/">
+              <a href="https://www.linkedin.com/in/antonydhanorejas25/" target="https://www.linkedin.com/in/antonydhanorejas25/">
                 <CiLinkedin className="w-8 h-8 text-[#555] md:w-7 md:h-7 hover:text-secondary duration-300" />
               </a>
               <a href="https://github.com/Dhan25">
@@ -52,7 +52,7 @@ const Home = () => {
       <div className="xl:flex items-center xl:px-64 mt-12">
         <h2 className="text-center md:text-md font-bold text-primary">
           Tech Stack <span className="ml-10 hidden xl:inline-flex">|</span>
-          <div className="md:ml-[300px] md:mt-3 md:w-[105px] w-24 ml-[115px] mt-2 h-0.5 bg-primary xl:hidden md:block"></div>
+          <div className="md:ml-[318px] md:mt-3 md:w-[105px] w-24 ml-[115px] mt-2 h-0.5 bg-primary xl:hidden md:block"></div>
         </h2>
 
         <div className="grid grid-cols-2 xl:flex space-y-6 xl:space-y-0 justify-items-center md:justify-center md:px-36 xl:px-0 px-1 xl:mt-0 mt-10 xl:ml-8">

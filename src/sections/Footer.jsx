@@ -11,10 +11,10 @@ const Footer = () => {
         </h1>
 
         <div className="flex items-center gap-5 mt-6 md:mt-0">
-          <a href="https://www.linkedin.com/in/antonydhanorejas25/">
+          <a href="https://www.linkedin.com/in/antonydhanorejas25/" target="https://www.linkedin.com/in/antonydhanorejas25/">
             <CiLinkedin className="w-7 h-7 text-white md:w-7 md:h-7 hover:scale-125 duration-300" />
           </a>
-          <a href="https://github.com/Dhan25">
+          <a href="https://github.com/Dhan25" target="https://github.com/Dhan25">
             <FiGithub className="w-7 h-7 text-white md:w-7 md:h-7 hover:scale-125 duration-300" />
           </a>
         </div>

@@ -50,7 +50,7 @@ const Navbar = () => {
 
         {/* Small Screens */}
         <ul
-          className={`xl:hidden flex flex-col items-center gap-3 md:gap-6 overflow-hidden absolute bg-white top-16 p-3 px-3 w-full h-[1000px] shadow-lg left-0 space-y-5 z-10 transition-transform duration-300 ${
+          className={`xl:hidden flex flex-col items-center gap-3 md:gap-6 overflow-hidden absolute bg-white top-16 p-3 px-3 w-full h-screen shadow-lg left-0 md:space-y-24 space-y-12 z-10 transition-transform duration-300 ${
             navMenu ? "translate-y-0" : "translate-x-full"
           }`}
         >

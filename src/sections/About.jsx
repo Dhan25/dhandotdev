@@ -1,4 +1,3 @@
-import React from "react";
 import aboutBg from "../assets/about-bg.jpg";
 import animateBg from "../assets/animate-bg.png";
 import animateAbout from "../assets/animate-about.svg";
@@ -7,7 +6,7 @@ import resume from "../assets/resume.pdf";
 
 const About = () => {
   return (
-    <div id="about" className="w-full h-screen xl:pt-24 xl:px-64 xl:pb-36">
+    <div id="about" className="w-full h-fit xl:pt-24 xl:px-64 xl:pb-36">
       <div className="pt-28 px-8">
         <div className="relative grid grid-rows-1 md:grid-cols-1 md:justify-items-center xl:flex gap-6">
           <img
@@ -48,7 +47,7 @@ const About = () => {
                 <a
                   href={resume}
                   className="flex items-center bg-secondary text-white px-6 text-sm py-3 rounded-xl hover:text-secondary hover:border-secondary hover:border-2 hover:bg-transparent hover:-translate-y-2 duration-500 "
-                >
+                  target={resume} >
                   Download Resume <HiDownload className="ml-3 w-4 h-4" />
                 </a>
               </div>
