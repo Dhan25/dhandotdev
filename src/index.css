@@ -69,3 +69,7 @@ html {
     }
 }
 
+.tech-use {
+    @apply border-2 p-1 px-2 rounded-full border-secondary text-tertiary text-[10px] font-medium;
+}
+

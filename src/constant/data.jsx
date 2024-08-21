@@ -8,3 +8,10 @@ export const navLinks = [
   { id: "#projects", title: "Projects" },
   { id: "#contact", title: "Contact" },
 ];
+
+export const projectDetails = [
+  {id: "1", desc: "DHAN"},
+  {id: "2", desc: "ANTONY"},
+  {id: "3", desc: "OREJAS"},
+ 
+]

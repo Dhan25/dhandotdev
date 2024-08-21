@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { navLinks } from "../constant/data";
 import { FaBars } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
+
+
 const Navbar = () => {
   const [navMenu, setNavMenu] = useState(false);
 
@@ -15,8 +17,8 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 left-0 px-3 py-6 w-full shadow-md xl:px-12 xl:py-6 bg-white z-10">
       <nav className="flex items-center justify-between px-5">
-        <a href="" className="font-bold tracking-wider text-xl">
-          <span>Antony.dev</span>
+        <a href="" className="font-bold tracking-wider text-[16px]">
+          <span>Dhan.dev</span>
         </a>
 
         {/* Large Screeen */}
@@ -25,7 +27,7 @@ const Navbar = () => {
             <li key={item.link}>
               <a
                 href={item.id}
-                className="text-md font-semibold text-primary hover:text-secondary"
+                className="text-[16px] font-semibold text-primary hover:text-secondary"
               >
                 {item.title}
               </a>

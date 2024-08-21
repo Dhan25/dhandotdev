@@ -42,7 +42,7 @@ const About = () => {
               <br />
               My main stack currently is React in combination with Tailwind CSS.
             </p>
-            <div className="md:mt-6">
+            <div className="md:mt-6 overflow-hidden">
               <div className="flex xl:float-left justify-center xl:mt-2 mt-6">
                 <a
                   href={resume}
