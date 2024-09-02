@@ -2,13 +2,13 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full h-fit md:pb-16 xl:pb-24 px-4 pt-8 bg-white xl:px-64 xl:pt-20">
+    <div id="contact" className="w-full h-fit md:pb-16 xl:pb-24 px-4 pt-8 bg-white xl:px-64 xl:pt-20 dark:bg-slate-900">
       <div className="grid grid-cols-1 md:grid-rows-2 md:px-6 md:pt-12">
         <div className="text-center md:text-left">
           <h1 className="text-[1.2rem] md:text-[18px] xl:text-lg text-secondary font-bold">
             CONTACT
           </h1>
-          <p className="mt-5 md:mt-3 font-bold md:text-[1.6rem] text-2xl text-primary">
+          <p className="mt-5 md:mt-3 font-bold md:text-[1.6rem] text-2xl text-primary dark:text-white">
             Don't be shy! Hit me up! 👇
           </p>
         </div>
@@ -38,8 +38,8 @@ const Contact = () => {
               </svg>
             </span>
             <div className="md:ml-3 text-center md:text-left mt-3">
-              <h2 className="font-bold text-primary">Location</h2>
-              <p className="text-[#555] xl:text-[15px] xl:mt-1 hover:text-secondary duration-200 cursor-pointer">Cavinti, Laguna</p>
+              <h2 className="font-bold text-primary dark:text-white">Location</h2>
+              <p className="text-[#555] xl:text-[15px] xl:mt-1 hover:text-secondary duration-200 cursor-pointer dark:text-white">Cavinti, Laguna</p>
             </div>
           </div>
 
@@ -61,8 +61,8 @@ const Contact = () => {
               </svg>
             </span>
             <div className="md:ml-3 text-center md:text-left mt-3">
-              <h2 className="font-bold text-primary">Mail</h2>
-              <a href="" className="text-[#555] xl:text-[15px] xl:mt-1 hover:text-secondary duration-200">orejasantonydhan50@gmail.com</a>
+              <h2 className="font-bold text-primary dark:text-white">Mail</h2>
+              <a href="" className="text-[#555] xl:text-[15px] xl:mt-1 hover:text-secondary duration-200 dark:text-white">orejasantonydhan50@gmail.com</a>
             </div>
           </div>
         </div>

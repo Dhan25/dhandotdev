@@ -7,12 +7,12 @@ import puzzle from "../assets/puzzle.svg"
 
 const Projects = () => {
   return (
-    <div id="projects" className="bg-[#f9f9f9] h-full w-full xl:pl-[270px] pt-12 pb-32 xl:px-64">
+    <div id="projects" className="bg-[#f9f9f9] h-full w-full xl:pl-[270px] pt-12 pb-32 xl:px-64 dark:bg-slate-900">
       <h1 className="font-bold xl:text-2xl md:text-xl text-lg text-secondary tracking-wide xl:ml-3 md:ml-10 md:pt-12 text-center">
         PROJECTS
       </h1>
       <div className="flex justify-center gap-2">
-        <p className="xl:ml-3 md:ml-10 font-bold mt-4 text-lg text-center md:flex">Each project is a unique piece of development <img src={puzzle} alt="" className="w-8 hidden md:flex md:ml-3"/></p>
+        <p className="xl:ml-3 md:ml-10 font-bold mt-4 text-lg text-center md:flex dark:text-white">Each project is a unique piece of development <img src={puzzle} alt="" className="w-8 hidden md:flex md:ml-3"/></p>
        
       </div>
       {/* <p className="text-center mt-12 md:text-3xl text-lg font-bold">New projects coming soon.. 🤠</p> */}
@@ -23,7 +23,7 @@ const Projects = () => {
         <Buttons />
       </div> */}
       <div className="w-full h-full m-auto">
-        <ProjectCards />
+        <ProjectCards/>
       </div>
     </div>
   );

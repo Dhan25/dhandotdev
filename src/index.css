@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-.github-btn {
+/* .github-btn {
     @apply border-2 bg-primary px-4 py-2 flex items-center text-white rounded hover:bg-transparent hover:border-primary hover:text-primary hover:-translate-y-2 duration-300
 }
 
 .live-btn {
     @apply border-2 bg-secondary text-white rounded hover:bg-transparent hover:text-secondary hover:border-secondary hover:-translate-y-2 duration-300 px-4 py-2 flex items-center 
-}
+} */
 
 html {
     scroll-behavior: smooth;
@@ -72,4 +72,5 @@ html {
 .tech-use {
     @apply border-2 p-1 px-2 rounded-full border-secondary text-tertiary text-[10px] font-medium;
 }
+
 

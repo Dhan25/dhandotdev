@@ -13,9 +13,11 @@ import wave from "../assets/wave.png";
 import git from "../assets/git.svg";
 import npm from "../assets/npm.svg";
 
+// import ThemeToggle from "../components/ThemeToggle";
+
 const Home = () => {
   return (
-    <div id="home" className="px-8 pt-28 bg-[#f9f9f9] w-full h-full pb-24">
+    <div id="home" className="px-8 pt-28 bg-[#f9f9f9] w-full h-full md:h-screen pb-24 dark:bg-slate-900">
       <div className="relative flex flex-col xl:flex-row-reverse items-center xl:justify-center gap-12 xl:pl-12 xl:pt-10">
         <span className="animate-bounce">
           <img
@@ -26,10 +28,10 @@ const Home = () => {
         </span>
 
         <div className="max-w-[400px] md:max-w-[550px] xl:max-w-[600px] text-center xl:text-left xl:pt-12">
-          <h1 className="text-3xl md:text-4xl xl:text-[3rem] md:leading-snug xl:leading-snug font-extrabold text-primary">
+          <h1 className="text-3xl md:text-4xl xl:text-[3rem] md:leading-snug xl:leading-snug font-extrabold text-primary dark:text-white">
             Front-End React Developer <span className="wave md:w-14 md:h-16 ml-2 w-12 h-12"><img src={wave} alt="" /></span>
           </h1>
-          <p className="text-[#555] text-md mt-6 md:text-md xl:text-lg leading-7">
+          <p className="text-[#555] text-md mt-6 md:text-md xl:text-lg leading-7 dark:text-white">
             Hi, I'm Antony Dhan Orejas. A passionate Front-end React Developer
             based in Cavinti, Laguna. 📍
           </p>
@@ -38,10 +40,10 @@ const Home = () => {
           <div className="flex justify-center xl:float-left">
             <div className="flex items-center gap-5 mt-8">
               <a href="https://www.linkedin.com/in/antonydhanorejas25/" target="https://www.linkedin.com/in/antonydhanorejas25/">
-                <CiLinkedin className="w-6 h-6 text-[#555] md:w-7 md:h-7 hover:text-secondary duration-300" />
+                <CiLinkedin className="w-6 h-6 text-[#555] md:w-7 md:h-7 hover:text-secondary duration-300 dark:text-white" />
               </a>
               <a href="https://github.com/Dhan25">
-                <FiGithub className="w-6 h-6 text-[#555] md:w-7 md:h-7 hover:text-secondary duration-300" />
+                <FiGithub className="w-6 h-6 text-[#555] md:w-7 md:h-7 hover:text-secondary duration-300 dark:text-white" />
               </a>
             </div>
           </div>
@@ -50,9 +52,9 @@ const Home = () => {
 
       {/* Tech Stacks */}
       <div className="xl:flex items-center xl:px-64 mt-12">
-        <h2 className="text-center md:text-md font-semibold text-primary">
+        <h2 className="text-center md:text-md font-semibold text-primary dark:text-white">
           Tech Stack <span className="ml-10 hidden xl:inline-flex">|</span>
-          <div className="md:ml-[318px] md:mt-3 md:w-[105px] w-24 ml-[115px] mt-2 h-0.5 bg-primary xl:hidden md:block"></div>
+          <div className="md:ml-[318px] md:mt-3 md:w-[105px] w-24 ml-[116px] mt-2 h-0.5 bg-primary xl:hidden md:block dark:bg-white"></div>
         </h2>
 
         <div className="grid grid-cols-2 xl:flex space-y-6 xl:space-y-0 justify-items-center md:justify-center md:px-36 xl:px-0 px-1 xl:mt-0 mt-10 xl:ml-8">
