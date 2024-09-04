@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full h-fit md:pb-16 xl:pb-24 px-4 pt-8 bg-white xl:px-64 xl:pt-20 dark:bg-slate-900">
       <div className="grid grid-cols-1 md:grid-rows-2 md:px-6 md:pt-12">
-        <div className="text-center md:text-left">
+        <div className="text-center md:text-left" data-aos='fade-down' data-aos-delay='400'>
           <h1 className="text-[1.2rem] md:text-[18px] xl:text-lg text-secondary font-bold">
             CONTACT
           </h1>
@@ -15,7 +15,7 @@ const Contact = () => {
 
         {/* Location and Mail */}
         <div className="md:flex md:gap-32 md:mt-10 pb-12 mt-12">
-          <div className="flex flex-col md:flex-row items-center mb-16 md:mb-0">
+          <div className="flex flex-col md:flex-row items-center mb-16 md:mb-0" data-aos='fade-up' data-aos-delay='500'>
             <span className="p-4 shadow-2xl rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row items-center">
+          <div className="flex flex-col md:flex-row items-center" data-aos='fade-up' data-aos-delay='500'>
             <span className="p-4 shadow-2xl rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -17,7 +17,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 px-3 py-6 w-full shadow-md xl:px-12 xl:py-6 bg-white z-10 dark:bg-slate-900">
+    <div className="fixed top-0 left-0 px-3 py-6 w-screen shadow-md xl:px-12 xl:py-6 bg-white z-10 dark:bg-slate-900">
       <nav className="flex items-center justify-between px-5 ">
         <a href="" className="font-bold tracking-wider text-[16px] dark:text-white">
           <span>Dhan.dev</span>
@@ -57,11 +57,11 @@ const Navbar = () => {
 
         {/* Small Screens */}
         <ul
-          className={`xl:hidden flex flex-col items-center gap-3 md:gap-6 overflow-hidden absolute bg-white top-[71px] md:top-[75px] p-3 px-3 w-full h-screen shadow-lg left-0 md:space-y-24 space-y-12 z-10 transition-transform duration-300 dark:bg-slate-900 ${navMenu ? "translate-y-0" : "translate-x-full"
+          className={`xl:hidden flex flex-col items-center gap-3 md:gap-6 overflow-hidden absolute bg-white top-[60px] md:top-[75px] p-3 px-3 w-full h-screen shadow-lg left-0 md:space-y-24 space-y-12 z-10 transition-transform duration-300 dark:bg-slate-900 ${navMenu ? "translate-y-0" : "translate-x-full"
             }`}
         >
           {navLinks.map((item) => (
-            <li key={item.link} className="mt-56">
+            <li key={item.link} className="mt-52">
               <a
                 href={item.id}
                 className="text-2xl md:text-3xl font-semibold text-primary hover:text-secondary dark:text-white"

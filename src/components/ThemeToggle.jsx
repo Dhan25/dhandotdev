@@ -7,7 +7,8 @@ const ThemeToggle = () => {
 
     useEffect(() => {
         const theme = localStorage.getItem('theme');
-        if (theme === 'dark') setDarkMode(false);
+        if (theme === 'dark')
+            setDarkMode(false);
     }, [])
 
     useEffect(() => {
@@ -21,11 +22,11 @@ const ThemeToggle = () => {
     }, [darkMode]);
 
     return (
-        <div className='relative w-14 h-8 flex items-center border-2 drop-shadow-2xl bg-white dark:bg-slate-900 cursor-pointer rounded-full p-1 duration-300' onClick={() => setDarkMode(!darkMode)}>
+        <div className='relative w-[52px] h-8 flex items-center border-2 drop-shadow-2xl bg-white dark:bg-slate-900 cursor-pointer rounded-full p-1 duration-300' onClick={() => setDarkMode(!darkMode)}>
             <BsSunFill className='text-yellow-400 shadow-xl' size={16} />
-            <div className={`absolute bg-gray-400 dark:bg-slate-600 w-6 h-6 rounded-full shadow-md transform transition-transform duration-300 ${darkMode ? 'left-[]2px]' : 'right-[2px]'}`}>
+            <div className={`absolute bg-gray-400 dark:bg-slate-600 w-6 h-6 rounded-full shadow-md transform transition-transform duration-300 ${darkMode ? 'left-[2px]' : 'right-[2px]'}`}>
             </div>
-            <FaMoon className='ml-auto text-white' size={16} />
+            <FaMoon className='ml-3.5 text-white' size={16} />
         </div>
     )
 }

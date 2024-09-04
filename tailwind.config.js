@@ -15,7 +15,10 @@ export default {
         secondary: '#6e06f2',
         tertiary: '#4E525A',
         background_color: '#FCFCFD',
-      }
+      },
+      screens: {
+        '2xl': '1281px',
+      },
     },
   },
   plugins: [],

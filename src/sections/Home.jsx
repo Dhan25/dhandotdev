@@ -1,4 +1,3 @@
-import React from "react";
 import { CiLinkedin } from "react-icons/ci";
 import { FiGithub } from "react-icons/fi";
 
@@ -13,12 +12,11 @@ import wave from "../assets/wave.png";
 import git from "../assets/git.svg";
 import npm from "../assets/npm.svg";
 
-// import ThemeToggle from "../components/ThemeToggle";
 
 const Home = () => {
   return (
     <div id="home" className="px-8 pt-28 bg-[#f9f9f9] w-full h-full md:h-screen pb-24 dark:bg-slate-900">
-      <div className="relative flex flex-col xl:flex-row-reverse items-center xl:justify-center gap-12 xl:pl-12 xl:pt-10">
+      <div className="relative flex flex-col xl:flex-row-reverse items-center xl:justify-center gap-12 xl:pl-12 xl:pt-10" data-aos="fade-right" data-aos-delay='300'>
         <span className="animate-bounce">
           <img
             src={homeBg}
@@ -51,7 +49,7 @@ const Home = () => {
       </div>
 
       {/* Tech Stacks */}
-      <div className="xl:flex items-center xl:px-64 mt-12">
+      <div className="xl:flex items-center xl:px-64 mt-12" data-aos="fade-up" data-aos-delay='400'>
         <h2 className="text-center md:text-md font-semibold text-primary dark:text-white">
           Tech Stack <span className="ml-10 hidden xl:inline-flex">|</span>
           <div className="md:ml-[318px] md:mt-3 md:w-[105px] w-24 ml-[116px] mt-2 h-0.5 bg-primary xl:hidden md:block dark:bg-white"></div>
@@ -59,8 +57,8 @@ const Home = () => {
 
         <div className="grid grid-cols-2 xl:flex space-y-6 xl:space-y-0 justify-items-center md:justify-center md:px-36 xl:px-0 px-1 xl:mt-0 mt-10 xl:ml-8">
           <span className="mt-7 xl:mt-0 flex items-center gap-1 md:gap-2 transform-translate xl:ml-8 hover:-translate-y-3 transform-translate duration-300 cursor-pointer">
-            <img src={html} alt="" className="w-10 h-10 bg-[#E85427] rounded-lg"/>
-            <img src={css} alt="" className="w-10 h-10  bg-[#0277BD] rounded-lg"/>
+            <img src={html} alt="" className="w-10 h-10 bg-[#E85427] rounded-lg" />
+            <img src={css} alt="" className="w-10 h-10  bg-[#0277BD] rounded-lg" />
           </span>
           <span className="flex items-center gap-1 md:gap-2 hover:-translate-y-3 transform-translate duration-300 cursor-pointer xl:ml-8">
             <img src={javascript} alt="" className="w-10 h-10" />
@@ -75,8 +73,8 @@ const Home = () => {
             <img src={bootsrap} alt="" className="w-10 h-10" />
           </span>
           <span className="flex items-center gap-1 md:gap-2 hover:-translate-y-3 transform-translate duration-300 cursor-pointer xl:ml-8">
-            <img src={npm} alt="" className="w-10 h-10 rounded-md"/>
-            <img src={git} alt="" className="w-10 h-10 rounded-md"/>
+            <img src={npm} alt="" className="w-10 h-10 rounded-md" />
+            <img src={git} alt="" className="w-10 h-10 rounded-md" />
           </span>
         </div>
       </div>

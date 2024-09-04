@@ -3,10 +3,10 @@ import uberClone from "../assets/UberClone-bg.png";
 import personalPortfolio from "../assets/Personal-Portfolio-bg.png";
 import foodWebsite from "../assets/Food-Website-bg.png";
 import { RiArrowRightLine } from "react-icons/ri";
-import { BsBoxArrowUpRight } from "react-icons/bs";
+
 import { FaGithub } from "react-icons/fa";
 
-import Modal from "./Modal";
+// import Modal from "./Modal";
 
 
 const ProjectCards = () => {
@@ -26,13 +26,21 @@ const ProjectCards = () => {
 
   return (
     <section className="mt-12">
-      <div className="grid md:grid-cols-2 items-center justify-center xl:px-40 md:px-24 gap-12">
+      <div className="relative grid md:grid-cols-2 items-center justify-center md:px-24 md:gap-6 gap-5 xl:px-44">
 
         {/* Uber Clone */}
-        <div className="border-2 shadow-xl rounded-xl w-72 h-60">
+        <div className="border-2 shadow-xl rounded-xl w-fit h-fit" data-aos='fade-down' data-aos-delay='500'>
           <img src={uberClone} alt="" className="w-full object-contain p-2 h-40 rounded-xl hover:scale-105 duration-300" />
           <h1 className="mt-2 font-bold ml-2 dark:text-white">Uber Inc. Clone</h1>
-          <div className="flex items-center justify-between px-2 mt-2">
+          <div className="px-2 text-xs flex items-center mt-2">
+            <p className="text-xs font-bold dark:text-white">Tech use:</p>
+            <div className="ml-3 flex items-center gap-2 ">
+              <span className="border px-1.5 py-0.5 rounded-full font-medium text-tertiary dark:text-white">vite</span>
+              <span className="border px-1.5 py-0.5 rounded-full font-medium text-tertiary dark:text-white">react</span>
+              <span className="border px-1.5 py-0.5 rounded-full font-medium text-tertiary dark:text-white">tailwind css</span>
+            </div>
+          </div>
+          <div className="flex items-center justify-between px-2 mt-3 pb-2">
             <a href="https://uber-technologies-clone.vercel.app" target="https://uber-technologies-clone.vercel.app"
               className="group flex items-center text-xs text-tertiary dark:text-white">Demo <span><RiArrowRightLine className="h-3 ml-1 group-hover:translate-x-2 transition duration-300 ease-out" /></span></a>
             {/* <button onClick={() => openModalWithContent(
@@ -48,17 +56,25 @@ const ProjectCards = () => {
               </div>
               )} className="flex items-center text-xs text-tertiary mr-1"> Code <FaGithub className="h-6 ml-2" />
             </button> */}
-            <a href="https://github.com/Dhan25/uber-technologies-clone" target="https://github.com/Dhan25/uber-technologies-clone" className="flex items-center text-xs text-tertiary mr-1">Code <FaGithub className="h-6 ml-2" /></a>
+            <a href="https://github.com/Dhan25/uber-technologies-clone" target="https://github.com/Dhan25/uber-technologies-clone" className="flex items-center text-xs text-tertiary mr-1 dark:text-white hover:text-gray-400 duration-300">Code <FaGithub size={14} className="ml-2" /></a>
 
           </div>
         </div>
 
 
         {/* Personal Portfolio */}
-        <div className="border-2 shadow-xl rounded-xl w-72 h-60">
+        <div className="border-2 shadow-xl rounded-xl w-fit h-fit" data-aos='fade-left' data-aos-delay='500'>
           <img src={personalPortfolio} alt="" className="w-full object-contain p-2 h-40 rounded-xl hover:scale-105 duration-300" />
           <h1 className="mt-2 font-bold ml-2 dark:text-white">First Personal Portfolio</h1>
-          <div className="flex items-center justify-between px-2 mt-2">
+          <div className="px-2 text-xs flex items-center mt-2">
+            <p className="text-xs font-bold dark:text-white">Tech use:</p>
+            <div className="ml-3 flex items-center gap-2 ">
+              <span className="border px-1.5 py-0.5 rounded-full font-medium text-tertiary dark:text-white">vite</span>
+              <span className="border px-1.5 py-0.5 rounded-full font-medium text-tertiary dark:text-white">react</span>
+              <span className="border px-1.5 py-0.5 rounded-full font-medium text-tertiary dark:text-white">tailwind css</span>
+            </div>
+          </div>
+          <div className="flex items-center justify-between px-2 mt-3 pb-2">
             <a href="https://my-personal-portfolio-vert.vercel.app/" target="https://my-personal-portfolio-vert.vercel.app/"
               className="group flex items-center text-xs text-tertiary dark:text-white">Demo <span><RiArrowRightLine className="h-3 ml-1 group-hover:translate-x-2 transition duration-300 ease-out" /></span></a>
             {/* <button onClick={() => openModalWithContent(
@@ -67,16 +83,23 @@ const ProjectCards = () => {
                 <p>This is some content for the first modal.</p>
               </div>
             )} className="flex items-center text-xs text-tertiary mr-1"> Code <FaGithub className="h-6 ml-2" /></button> */}
-            <a href="https://github.com/Dhan25/my-personal-portfolio" target="https://github.com/Dhan25/my-personal-portfolio" className="flex items-center text-xs text-tertiary mr-1">Code <FaGithub className="h-6 ml-2" /></a>
-
+            <a href="https://github.com/Dhan25/my-personal-portfolio" target="https://github.com/Dhan25/my-personal-portfolio" className="flex items-center text-xs text-tertiary mr-1 dark:text-white hover:text-gray-400 duration-300">Code <FaGithub size={14} className="ml-2" /></a>
           </div>
         </div>
 
         {/* Food Website */}
-        <div className="border-2 shadow-xl rounded-xl w-72 h-60">
-          <img src={foodWebsite} alt="" className="w-full object-contain p-2 h-40 rounded-xl hover:scale-105 duration-300" />
+        <div className="border-2 shadow-xl rounded-xl w-full h-fit" data-aos='fade-up' data-aos-delay='500'>
+          <img src={foodWebsite} alt="" className="w-full object-center p-2 h-40 rounded-xl hover:scale-105 duration-300" />
           <h1 className="mt-2 font-bold ml-2 dark:text-white">Food Website</h1>
-          <div className="flex items-center justify-between px-2 mt-2">
+          <div className="px-2 text-xs flex items-center mt-2">
+            <p className="text-xs font-bold dark:text-white">Tech use:</p>
+            <div className="ml-3 flex items-center gap-2 ">
+              <span className="border px-1.5 py-0.5 rounded-full font-medium text-tertiary dark:text-white">vite</span>
+              <span className="border px-1.5 py-0.5 rounded-full font-medium text-tertiary dark:text-white">react</span>
+              <span className="border px-1.5 py-0.5 rounded-full font-medium text-tertiary dark:text-white">tailwind css</span>
+            </div>
+          </div>
+          <div className="flex items-center justify-between px-2 mt-3 pb-2">
             <a href="https://food-website-theta-sepia.vercel.app/" target="https://food-website-theta-sepia.vercel.app/"
               className="group flex items-center text-xs text-tertiary dark:text-white">Demo <span><RiArrowRightLine className="h-3 ml-1 group-hover:translate-x-2 transition duration-300 ease-out" /></span></a>
             {/* <button onClick={() => openModalWithContent(
@@ -86,9 +109,15 @@ const ProjectCards = () => {
               </div>
             )} className="flex text-xs text-tertiary mr-1 font-semibold"> View <BsBoxArrowUpRight className="h-3 ml-2" />
             </button> */}
-            <a href="https://github.com/Dhan25/food-website" target="https://github.com/Dhan25/food-website" className="flex items-center text-xs text-tertiary mr-1">Code <FaGithub className="h-6 ml-2" /></a>
+            <a href="https://github.com/Dhan25/food-website" target="https://github.com/Dhan25/food-website" className="flex items-center text-xs text-tertiary mr-1 dark:text-white hover:text-gray-400 duration-300">Code <FaGithub size={14} className="ml-2" /></a>
           </div>
         </div>
+
+
+
+
+
+
 
 
 
