@@ -117,7 +117,7 @@ const ProjectCards = () => {
         {/* Weather app */}
         <div className="border-2 shadow-xl rounded-xl w-full h-fit" data-aos='fade-up' data-aos-delay='500'>
           <img src={weatherBg} alt="" className="w-full object-contain object-center bg-no-repeat p-2 h-40 rounded-xl hover:scale-105 duration-300" />
-          <h1 className="mt-2 font-bold ml-2 dark:text-white">Food Website</h1>
+          <h1 className="mt-2 font-bold ml-2 dark:text-white">Weather App</h1>
           <div className="px-2 text-xs flex items-center mt-2">
             <p className="text-xs font-bold dark:text-white">Tech use:</p>
             <div className="ml-3 flex items-center gap-2 ">
