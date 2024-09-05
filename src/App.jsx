@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="font-poppins overflow-x-hidden">
-      <Navbar />
+      <Navbar />  
       <Home />
       <About />
       <Projects />
