@@ -2,7 +2,7 @@
 import uberClone from "../assets/UberClone-bg.png";
 import personalPortfolio from "../assets/Personal-Portfolio-bg.png";
 import foodWebsite from "../assets/Food-Website-bg.png";
-import weatherBg from "../assets/Weather-Bg.png";
+import weatherBg from "../assets/weather-Bg.png";
 import { RiArrowRightLine } from "react-icons/ri";
 
 import { FaGithub } from "react-icons/fa";
@@ -115,7 +115,7 @@ const ProjectCards = () => {
         </div>
             
         {/* Weather app */}
-        {/* <div className="border-2 shadow-xl rounded-xl w-full h-fit" data-aos='fade-up' data-aos-delay='500'>
+        <div className="border-2 shadow-xl rounded-xl w-full h-fit" data-aos='fade-up' data-aos-delay='500'>
           <img src={weatherBg} alt="" className="w-full object-contain object-center bg-no-repeat p-2 h-40 rounded-xl hover:scale-105 duration-300" />
           <h1 className="mt-2 font-bold ml-2 dark:text-white">Weather App</h1>
           <div className="px-2 text-xs flex items-center mt-2">
@@ -130,16 +130,16 @@ const ProjectCards = () => {
           <div className="flex items-center justify-between px-2 mt-3 pb-2">
             <a href="https://weather-app-one-eta-82.vercel.app/" target="https://weather-app-one-eta-82.vercel.app/"
               className="group flex items-center text-xs text-tertiary dark:text-white">Demo <span><RiArrowRightLine className="h-3 ml-1 group-hover:translate-x-2 transition duration-300 ease-out" /></span></a>
-            <button onClick={() => openModalWithContent(
+            {/* <button onClick={() => openModalWithContent(
               <div>
                 <h2 className="text-lg font-bold mt-3">Food Website</h2>
                 <p>This is some content for the first modal.</p>
               </div>
             )} className="flex text-xs text-tertiary mr-1 font-semibold"> View <BsBoxArrowUpRight className="h-3 ml-2" />
-            </button>
+            </button> */}
             <a href="https://github.com/Dhan25/weather-app" target="https://github.com/Dhan25/weather-app" className="flex items-center text-xs text-tertiary mr-1 dark:text-white hover:text-gray-400 duration-300">Code <FaGithub size={14} className="ml-2" /></a>
           </div>
-        </div> */}
+        </div>
 
 
 
