@@ -2,9 +2,6 @@ import React from "react";
 import ProjectCards from "../components/ProjectCards";
 import puzzle from "../assets/puzzle.svg"
 
-// import { projectCardsLink } from "../constant/data";
-// import Buttons from "../components/Buttons";
-
 const Projects = () => {
   return (
     <div id="projects" className="bg-[#f9f9f9] h-full w-full xl:pl-[270px] pt-12 pb-32 xl:px-64 dark:bg-slate-900">

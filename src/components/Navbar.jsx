@@ -24,8 +24,8 @@ const Navbar = () => {
         </a>
 
         {/* Large Screeen */}
-        <ul className="relative flex items-center pl-32 md:pl-[500px] gap-5 overflow-hidden">
-          <div className="hidden items-center gap-8 xl:flex overflow-hidden">
+        <ul className="relative flex items-center pl-32 md:pl-[500px]">
+          <div className="hidden items-center gap-8 xl:flex">
             {navLinks.map((item) => (
               <li key={item.link}>
                 <a
@@ -37,7 +37,7 @@ const Navbar = () => {
               </li>
             ))}
           </div>
-          <ThemeToggle />
+          <ThemeToggle/>
         </ul>
 
         {/* NavLinks Button*/}

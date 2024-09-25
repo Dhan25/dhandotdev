@@ -49,10 +49,10 @@ const Home = () => {
       </div>
 
       {/* Tech Stacks */}
-      <div className="xl:flex items-center xl:px-64 mt-12" data-aos="fade-up" data-aos-delay='400'>
+      <div className="xl:flex items-center xl:px-[335px] mt-12" data-aos="fade-up" data-aos-delay='400'>
         <h2 className="text-center md:text-md font-semibold text-primary dark:text-white">
           Tech Stack <span className="ml-10 hidden xl:inline-flex">|</span>
-          <div className="md:ml-[318px] md:mt-3 md:w-[105px] w-24 ml-[116px] mt-2 h-0.5 bg-primary xl:hidden md:block dark:bg-white"></div>
+          <div className="md:ml-[363px] md:mt-3 md:w-[105px] w-24 ml-[116px] mt-2 h-0.5 bg-primary xl:hidden md:block dark:bg-white"></div>
         </h2>
 
         <div className="grid grid-cols-2 xl:flex space-y-6 xl:space-y-0 justify-items-center md:justify-center md:px-36 xl:px-0 px-1 xl:mt-0 mt-10 xl:ml-8">

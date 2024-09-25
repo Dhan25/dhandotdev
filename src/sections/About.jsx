@@ -32,10 +32,10 @@ const About = () => {
             <h1 className="text-secondary font-extrabold text-[1.2rem]">
               ABOUT ME
             </h1>
-            <h2 className="text-primary text-[1.5rem] md:text-[1.8rem] xl:text-2xl font-bold mt-2 md:px-12 md:leading-[2.5rem] xl:px-0 dark:text-white 2xl:w-[350px]">
+            <h2 className="text-primary text-[1.5rem] md:text-[1.9rem] xl:text-2xl font-bold mt-2 md:px-12 md:leading-[2.5rem] xl:px-0 dark:text-white 2xl:w-[350px]">
               Front-end Developer <br /> based in Cavinti, Laguna 📍
             </h2>
-            <p className="xl:mt-4 mt-5 text-[#555] text-md px-6 md:mt-5 md:px-12 xl:px-0 md:leading-6 dark:text-white">
+            <p className="xl:mt-4 mt-5 xl:max-w-[450px] text-[#555] text-lg px-6 md:mt-5 md:px-12 xl:px-0 md:leading-6 dark:text-white">
               Hey, my name is Antony, and I'm a Frontend Developer. My passion
               is to create and develop a clean UI/UX for my users.
               <br />
