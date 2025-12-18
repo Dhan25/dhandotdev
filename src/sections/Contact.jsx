@@ -39,7 +39,7 @@ const Contact = () => {
             </span>
             <div className="md:ml-3 text-center md:text-left mt-3">
               <h2 className="font-bold text-primary dark:text-white">Location</h2>
-              <p className="text-[#555] xl:text-[15px] xl:mt-1 hover:text-secondary duration-200 cursor-pointer dark:text-white">Cavinti, Laguna</p>
+              <p className="text-[#555] xl:text-[15px] xl:mt-1 hover:text-secondary duration-200 cursor-pointer dark:text-white">Cabuyao, Laguna</p>
             </div>
           </div>
 
