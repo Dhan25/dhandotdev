@@ -42,8 +42,8 @@ const About = () => {
             data-aos="fade-down"
             data-aos-delay="400"
           >
-            <h1 className="text-secondary font-extrabold text-[1.2rem]">
-              ABOUT ME
+            <h1 className="dark:text-white font-extrabold text-[1.2rem]">
+              ABOUT <span className="text-secondary">ME</span>
             </h1>
             <h2 className="text-primary text-[1.5rem] md:text-[1.9rem] xl:text-2xl font-bold mt-2 md:px-12 md:leading-[2.5rem] xl:px-0 dark:text-white 2xl:w-[350px]">
               Passionaite Front-end Developer
