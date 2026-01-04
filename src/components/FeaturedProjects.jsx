@@ -1,7 +1,7 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import uberCLone from "../assets/UberClone-bg.png";
 import disneyClone from "../assets/disney-clone.png";
-import weatherApp from "../assets/weather-app.png";
+import weatherApp from "../assets/weather-Bg.png";
 
 const projects = [
   {
