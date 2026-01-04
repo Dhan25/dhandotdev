@@ -4,7 +4,7 @@ import { FiGithub } from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-primary">
+    <div className="w-full bg-black">
       <div className="xl:px-64 flex flex-col md:flex-row md:justify-between items-center xl:p-[4rem] p-[3rem]">
         <h1 className="text-white font-bold text-center text-[18px]">
           Copyright © 2024. All rights are reserved

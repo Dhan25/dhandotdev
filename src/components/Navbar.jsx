@@ -28,7 +28,7 @@ const [isScrolled, setIsScrolled] = useState(false);
   }, [])
 
   return (
-    <div className={`fixed top-0 left-0 py-6 px-4 w-screen shadow-md xl:px-12 xl:py-6 bg-white z-10 dark:bg-slate-900 ${isScrolled ? 'py-3 bg-transparent dark:bg-transparent backdrop-blur-md shadow-xs': 'py-3'}`} >
+    <div className={`fixed top-0 left-0 py-6 px-4 w-screen shadow-md xl:px-12 xl:py-6 bg-white z-10 dark:bg-slate-900 ${isScrolled ? 'bg-transparent dark:bg-transparent backdrop-blur-md shadow-xs': 'py-3'}`} >
       <nav className="flex items-center justify-between md:px-4 lg:ml-24">
         <a href="" className="font-bold tracking-wider text-[16px] dark:text-white flex items-center">
           <h1 className="text-secondary">Dhan.</h1><span>dev</span>

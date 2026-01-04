@@ -11,16 +11,16 @@ const Projects = () => {
       <div className="flex justify-center gap-2" data-aos='fade-down' data-aos-delay='400'>
         <p className="xl:ml-3 md:ml-10 font-bold mt-4 text-lg text-center md:flex items-center dark:text-white">Each project is a unique piece of development <img src={puzzle} alt="" className="w-8 hidden md:flex md:ml-3"/></p>
       </div>
-      <p className="text-center mt-12 md:text-3xl text-lg font-bold dark:text-white">New projects coming soon.. 🤠</p>
+      {/* <p className="text-center mt-12 md:text-3xl text-lg font-bold dark:text-white">New projects coming soon.. 🤠</p> */}
       {/* <div className="xl:grid xl:grid-cols-1 flex-wrap items-center mt-[3%] space-y-8">
         {projectCardsLink.map((product) => (
           <ProjectCards key={product.image} {...product} />
         ))}
         <Buttons />
       </div> */}
-      {/* <div className="w-full h-full">
+      <div className="w-full mt-3" data-aos='fade-up' data-aos-delay='400'>
         <FeaturedProjects/>
-      </div> */}
+      </div>
     </div>
   );
 };

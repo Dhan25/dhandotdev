@@ -28,8 +28,9 @@ const Home = () => {
     >
       <div className="mx-auto w-full max-w-6xl text-center md:text-left">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12 lg:gap-20">
+          
           {/* Content */}
-          <div className="order-2 lg:order-1 mt-6">
+          <div className="order-2 lg:order-1 mt-12">
             <h1
               id="hero-heading"
               className="
