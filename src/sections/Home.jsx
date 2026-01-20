@@ -14,6 +14,9 @@ import {
 import { SiTailwindcss } from "react-icons/si";
 import homeBg from "../assets/home-bg.jpg";
 
+import bubbleEffect from "../effects/bubble.module.css";
+import { style } from "motion/react-client";
+
 const Home = () => {
   return (
     <section
@@ -24,27 +27,36 @@ const Home = () => {
         bg-white text-gray-900
         flex items-center
         px-4 sm:px-6 md:px-12 lg:px-24 2xl:px-32
-      dark:bg-slate-900 md:-mt-4 mt-12"
+      dark:bg-slate-900 md:-mt-4 mt-12 space-y-6 md:space-y-8"
     >
       <div className="mx-auto w-full max-w-6xl text-center md:text-left">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12 lg:gap-20">
-          
           {/* Content */}
-          <div className="order-2 lg:order-1 mt-12">
+          <div className="order-2 lg:order-1 mt-3">
             <h1
               id="hero-heading"
               className="
                 font-extrabold tracking-tight
-                leading-[1.15]
-                text-[clamp(2rem,6vw,3.75rem)]
-              dark:text-white md:text-center lg:text-left"
+                leading-tight
+                text-[clamp(2.25rem,6vw,3.75rem)]
+                dark:text-white
+                max-w-[18ch]
+                md:max-w-[20ch] md:text-center lg:text-left md:ml-12 lg:ml-0"
             >
-              Front-End React <br />
+              {"Front-End React Developer".split("").map((char, index) => (
+                <span className={`${bubbleEffect.hoverText}`} key={index}>
+                  {char}
+                </span>
+              ))}
               <span className="inline-flex items-center gap-3 mt-2">
-                Developer
+                <bubbleEffect />
                 <span
                   aria-hidden
-                  className="wave text-[clamp(1.75rem,4vw,2.5rem)] md:w-14 md:h-14 ml-2 w-12 h-12"
+                  className="inline-block
+                    align-baseline
+                    w-[1em] h-[1em]
+                    ml-[0.25em]
+                    wave md:-mt-10 -mt-6"
                 >
                   <img src={wave} alt="" />
                 </span>
@@ -52,14 +64,15 @@ const Home = () => {
             </h1>
 
             <p
-              className="
+              className=" text-slate-600 dark:text-slate-400
+                text-base md:text-lg
+                max-w-prose
                 mt-6
-                text-gray-600
                 leading-relaxed
                 text-[14px]
                 md:w-[720px]
                 w-[350px]
-                text-center lg:text-left dark:text-white md:text-[16px] lg:text-[18px]"
+                text-center lg:text-left md:text-[16px] lg:text-[18px]"
             >
               I create web experiences with modern technologies. Specializing in
               front-end development, I build interfaces that are both beautiful
@@ -107,7 +120,10 @@ const Home = () => {
                 <div class="md:mt-3 mt-3 w-24 h-0.5 bg-primary md:hidden dark:bg-white"></div>
 
                 <div class="grid grid-cols-4 gap-5 md:flex place-items-center mt-6 lg:mt-0">
-                  <FaHtml5 className="tech-icon w-8 h-8 text-[#E34F26]" title="HTML5" />
+                  <FaHtml5
+                    className="tech-icon w-8 h-8 text-[#E34F26]"
+                    title="HTML5"
+                  />
                   <FaCss3Alt
                     className="tech-icon w-8 h-8 text-[#1572B6]"
                     title="CSS3"
@@ -116,7 +132,10 @@ const Home = () => {
                     className="tech-icon w-8 h-8 text-[#F7DF1E]"
                     title="JavaScript"
                   />
-                  <FaReact className="tech-icon w-8 h-8 text-[#61DAFB]" title="React" />
+                  <FaReact
+                    className="tech-icon w-8 h-8 text-[#61DAFB]"
+                    title="React"
+                  />
                   <SiTailwindcss
                     className="tech-icon w-8 h-8 text-[#38BDF8]"
                     title="Tailwind CSS"
@@ -125,8 +144,14 @@ const Home = () => {
                     className="tech-icon w-8 h-8 text-[#7952B3]"
                     title="Bootstrap"
                   />
-                  <FaNpm className="tech-icon w-8 h-8 text-[#CB3837]" title="NPM" />
-                  <FaGitAlt className="tech-icon w-8 h-8 text-[#F05032]" title="Git" />
+                  <FaNpm
+                    className="tech-icon w-8 h-8 text-[#CB3837]"
+                    title="NPM"
+                  />
+                  <FaGitAlt
+                    className="tech-icon w-8 h-8 text-[#F05032]"
+                    title="Git"
+                  />
                 </div>
               </div>
             </div>
@@ -144,7 +169,7 @@ const Home = () => {
                 src={homeBg}
                 alt="Front-end React Developer"
                 loading="lazy"
-                className="rounded-full object-cover w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 shadow-lg"
+                className="rounded-full object-cover w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 shadow-lg mt-12 md:mt-0"
               />
             </div>
           </div>
