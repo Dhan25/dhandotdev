@@ -15,7 +15,6 @@ import { SiTailwindcss } from "react-icons/si";
 import homeBg from "../assets/home-bg.jpg";
 
 import bubbleEffect from "../effects/bubble.module.css";
-import { style } from "motion/react-client";
 
 const Home = () => {
   return (
